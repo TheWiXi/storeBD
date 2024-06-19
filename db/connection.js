@@ -9,9 +9,11 @@ export const bdConnection = async() => {
         user: 'root',
         password: 'UfhkeLeeEjatNtakubUjcXzChDAPlVCI',
         database: 'railway',
-      });
-      console.log("Conexion exitosa.")
-    } catch (error) {
+        });
+        console.log("Conexion exitosa.")
+        return connection;
+    } 
+    catch (error) {
         console.error("Error de conexion.")
     }
 }
