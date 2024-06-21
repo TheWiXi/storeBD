@@ -5,7 +5,7 @@
 1. **Recuperar todas las líneas de productos con sus descripciones:**
 
    ```sql
-   select productLine, productDescription from products;
+   SELECT productLine, productDescription FROM products;
    ```
 
 2. **Encontrar todos los empleados que trabajan en la oficina de 'San Francisco':**
@@ -114,7 +114,7 @@
 
 2. **Calcular el total de productos en stock:**
 
-   ```
+   ```sql
       SELECT SUM(quantityInStock) AS total_productos_stock
       FROM products;
    ```
